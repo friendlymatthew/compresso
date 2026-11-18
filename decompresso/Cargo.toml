@@ -1,0 +1,11 @@
+[package]
+name = "decompresso"
+version = "0.1.0"
+edition = "2024"
+authors = ["friendlymatthew"]
+license = "MIT"
+description = "cli for decompressing files"
+
+[dependencies]
+anyhow = "1.0.104"
+compresso = { path = "..", version = "0.1.0" }

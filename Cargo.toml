@@ -1,0 +1,14 @@
+[workspace]
+members = ["decompresso"]
+resolver = "3"
+
+[package]
+name = "compresso"
+version = "0.1.0"
+edition = "2024"
+authors = ["friendlymatthew"]
+license = "MIT"
+description = "Decoders and readers for compressed file formats"
+
+[dependencies]
+anyhow = "1.0.104"
